@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.header {
+    background-color: bisque;   
+}
+
+.header__container {
+    border: 1px solid burlywood;
+    padding: 0 15px;
+    height: 110px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img__book {
+    width: 250px;
+    height: 200px;
+}
+
+.main__cotainer {
+    gap: 14px;
+    padding: 0 15px;
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.wrapper {
+    border: 1px solid burlywood;
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    padding: 0 250px;
+    height: 200px;
+    background-color: bisque;
+}
+
+.main__txt-container {
+    display: flex;
+    justify-content: center;
+}
+
+.description p {
+    font-weight: bold;
+    font-size: 17px;
+}
+
+
+.author_wrapper {
+    background-color: bisque;
+    border: 1px solid burlywood;
+    margin-top: 140px;
+    display: flex;
+    align-items: center;
+}
+
+.about__the-author p {
+    font-weight: bold;
+    padding: 0 15px;
+    font-size: 23px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+.link a {
+    color: black;
+    font-weight: bold;
+}
+
+.section {
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: bisque ;
+    border: 1px solid burlywood;
+    height: 120px;
+}
